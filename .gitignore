@@ -1,0 +1,68 @@
+# Dioxus / WebAssembly
+target/
+dist/
+trunk-output/
+wasm-pack.log
+*.wasm
+*.wasm.map
+*.js.map
+
+# Cargo
+Cargo.lock          # ← обычно коммитят в приложениях, но если хотите — можно игнорировать
+**/*.rs.bk
+*.pdb
+
+# Rust-analyzer / IDE
+.rustc_info.json
+.rls/
+.idea/
+.vscode/
+*.code-workspace
+
+# Trunk (самый популярный способ сборки веб-версии)
+index.html.bak
+Trunk.toml.bak
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Зависимости и кэш
+node_modules/           # если используете trunk + npm-скрипты
+package-lock.json       # редко, но бывает
+yarn.lock
+
+# Секреты и окружение
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+
+# Сборка для десктопа/мобильных платформ
+*.app
+*.exe
+*.dmg
+*.msi
+*.deb
+*.rpm
+build/
+out/
+
+# Тесты и покрытие
+target/coverage/
+*.profraw
+*.profdata
+lcov.info
+
+# SQLite / локальные БД (если используете sqlx + sqlite для dev)
+*.db
+*.sqlite
+*.sqlite3
+
+# Опционально (если используете)
+sqlx-data.json          # sqlx offline режим
