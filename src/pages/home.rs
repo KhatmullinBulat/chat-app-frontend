@@ -199,6 +199,6 @@ fn MessageCard(text: String, user: String, current_user: String) -> Element {
     };
 
     rsx! {
-        div { class: "{class}", {text} }
+        div { class: "{class}", "{user}: {text}" }
     }
 }
