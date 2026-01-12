@@ -1,6 +1,13 @@
 # Dioxus / WebAssembly
-target/
-dist/
+target/debug/
+target/dx/chat-app/debug/
+target/flycheck0/
+target/flycheck1/
+target/wasm-dev/
+target/wasm-release/
+target/wasm32-unknown-unknown/
+target/CACHEDIR.TAG
+
 trunk-output/
 wasm-pack.log
 *.wasm
