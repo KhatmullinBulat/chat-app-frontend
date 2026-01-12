@@ -1,5 +1,5 @@
 .button {
-  padding: 8px 18px;
+  padding: 8px 12px;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -41,8 +41,7 @@
 
 .button[data-style="outline"] {
   border: 1px solid var(--primary-color-6);
-  background-color: var(--light, var(--primary-color))
-    var(--dark, var(--primary-color-3));
+  background-color: var(--light, var(--primary-color)) var(--dark, var(--primary-color-3));
   color: var(--secondary-color-4);
 }
 

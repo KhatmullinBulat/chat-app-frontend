@@ -13,7 +13,7 @@
   font-family: inherit;
   line-height: 1.5;
   outline: none;
-  resize: vertical;
+  resize: none;
   transition: background-color 100ms ease-out, border-color 100ms ease-out, box-shadow 100ms ease-out;
 }
 
@@ -52,8 +52,7 @@
 /* Outline Variant */
 .textarea[data-style="outline"] {
   border: 1px solid var(--primary-color-6);
-  background-color: var(--light, var(--primary-color))
-    var(--dark, var(--primary-color-3));
+  background-color: var(--light, var(--primary-color)) var(--dark, var(--primary-color-3));
 }
 
 .textarea[data-style="outline"]:hover:not(:disabled, :focus) {

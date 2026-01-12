@@ -3,6 +3,16 @@
   "rust_version": "rustc 1.92.0 (ded5c06cf 2025-12-08)",
   "assets": {
     "assets": {
+      "/home/bulat/.cargo/git/checkouts/components-c3e2707fcc33b190/db92c1e/primitives/src/js/focus-trap.js": [
+        {
+          "absolute_source_path": "/home/bulat/.cargo/git/checkouts/components-c3e2707fcc33b190/db92c1e/primitives/src/js/focus-trap.js",
+          "bundled_path": "focus-trap-dxh6b434cc92bb578d4.js",
+          "options": {
+            "add_hash": true,
+            "variant": "Unknown"
+          }
+        }
+      ],
       "/home/bulat/pets/chat-app-frontend/assets/dx-components-theme.css": [
         {
           "absolute_source_path": "/home/bulat/pets/chat-app-frontend/assets/dx-components-theme.css",
@@ -26,7 +36,7 @@
       "/home/bulat/pets/chat-app-frontend/assets/main.css": [
         {
           "absolute_source_path": "/home/bulat/pets/chat-app-frontend/assets/main.css",
-          "bundled_path": "main-dxhd5c6c1d1318933.css",
+          "bundled_path": "main-dxh6919f589318702e.css",
           "options": {
             "add_hash": true,
             "variant": "Unknown"
@@ -36,7 +46,7 @@
       "/home/bulat/pets/chat-app-frontend/assets/tailwind.css": [
         {
           "absolute_source_path": "/home/bulat/pets/chat-app-frontend/assets/tailwind.css",
-          "bundled_path": "tailwind-dxhc3f51c4f13c9f90.css",
+          "bundled_path": "tailwind-dxhd3fff886cb5694f8.css",
           "options": {
             "add_hash": true,
             "variant": "Unknown"
@@ -46,7 +56,7 @@
       "/home/bulat/pets/chat-app-frontend/src/components/button/style.css": [
         {
           "absolute_source_path": "/home/bulat/pets/chat-app-frontend/src/components/button/style.css",
-          "bundled_path": "style-dxh92f1493819ee40e0.css",
+          "bundled_path": "style-dxh611d60ee9ea319.css",
           "options": {
             "add_hash": true,
             "variant": "Unknown"
@@ -63,10 +73,20 @@
           }
         }
       ],
+      "/home/bulat/pets/chat-app-frontend/src/components/label/style.css": [
+        {
+          "absolute_source_path": "/home/bulat/pets/chat-app-frontend/src/components/label/style.css",
+          "bundled_path": "style-dxh7170cf9d746fd2e6.css",
+          "options": {
+            "add_hash": true,
+            "variant": "Unknown"
+          }
+        }
+      ],
       "/home/bulat/pets/chat-app-frontend/src/components/textarea/style.css": [
         {
           "absolute_source_path": "/home/bulat/pets/chat-app-frontend/src/components/textarea/style.css",
-          "bundled_path": "style-dxhddf9138a1f4bbc1f.css",
+          "bundled_path": "style-dxhebae3b1d64d67159.css",
           "options": {
             "add_hash": true,
             "variant": "Unknown"
@@ -76,7 +96,7 @@
       "/home/bulat/pets/chat-app-frontend/target/dx/chat-app/release/web/public/wasm/chat-app.js": [
         {
           "absolute_source_path": "/home/bulat/pets/chat-app-frontend/target/dx/chat-app/release/web/public/wasm/chat-app.js",
-          "bundled_path": "chat-app-dxh2945afe41ba3599d.js",
+          "bundled_path": "chat-app-dxh2a39b77f5f476564.js",
           "options": {
             "add_hash": true,
             "variant": {
@@ -92,7 +112,7 @@
       "/home/bulat/pets/chat-app-frontend/target/dx/chat-app/release/web/public/wasm/chat-app_bg.wasm": [
         {
           "absolute_source_path": "/home/bulat/pets/chat-app-frontend/target/dx/chat-app/release/web/public/wasm/chat-app_bg.wasm",
-          "bundled_path": "chat-app_bg-dxhefd9e318bde16c16.wasm",
+          "bundled_path": "chat-app_bg-dxh202e9ba6d2e0c549.wasm",
           "options": {
             "add_hash": true,
             "variant": "Unknown"
